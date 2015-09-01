@@ -4,6 +4,8 @@ Go and Ruby-FFI `example`
 2. ruby (tested on 2.2.3 )
 
 ## Usage
-`go build -buildmode=c-shared -o libgo.so gomodule.go`
-`bundle`
-`bundle exec ruby test.rb`
+```bash
+go build -buildmode=c-shared -o libgo.so gomodule.go
+bundle
+bundle exec ruby test.rb
+```
